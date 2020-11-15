@@ -1,10 +1,10 @@
 import json
 from requests_oauthlib import OAuth1Session
 
-API_KEY = 'rf9fsvEsdjodaLoyMv9NIbdu3'
-API_SECRET_KEY = 'RsSLURxwDkmeWWpJYrqRikeeVqxHZjXJfA9y9dyteB5ECEG610'
-ACCESS_TOKEN = '2916609852-spdf353YECyzBrXkXaG0UdnOzMBpn50cHatVNTs'
-ACCESS_SECRET_TOKEN = 'sI5wOmejsTYzj0WGEPtah3RgY4Xk6fQCEuH5F217SoQq3'
+API_KEY = ''
+API_SECRET_KEY = ''
+ACCESS_TOKEN = ''
+ACCESS_SECRET_TOKEN = ''
 
 # 情報の取得
 twitter = OAuth1Session(API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_SECRET_TOKEN)
